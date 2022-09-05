@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(dakshinakasun.me, () => console.log("Server Running"));
+app.listen(react-live-app, () => console.log("Server Running"));
 // console.log(process.env.EMAIL_USER);
 // console.log(process.env.EMAIL_PASS);
 
